@@ -18,7 +18,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 with st.echo(code_location='below'):
     
-    st.title("My Parents New Healthy Diner')
+    st.title('My Parents New Healthy Diner')
     st.header('Breakfast Menu')
              
     st.text('Omega 3 & Blueberry Oatmeal')
