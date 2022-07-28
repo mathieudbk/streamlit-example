@@ -31,7 +31,7 @@ with st.echo(code_location='below'):
     my_fruit_list = my_fruit_list.set_index('Fruit')
     
     # Add multi-select picker.
-    st.multiselect("Pick some fruits:", list(my_fruit_list.index))
+    st.multiselect("Pick some fruits:", list(my_fruit_list.index), ['Avocado', 'Strawberries'])
     
     # Render dataframe.
     st.dataframe(my_fruit_list)
