@@ -27,7 +27,7 @@ with st.echo(code_location='below'):
     st.text('Hard-Boilded Fre-Range Egg')
     
     # Get data sample from Snowflake AWS S3 bucket.
-    my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+    my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
     st.dataframe(my_fruit_list)
     
     
